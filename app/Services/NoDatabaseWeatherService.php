@@ -13,8 +13,8 @@ class NoDatabaseWeatherService
     public function __construct()
     {
         $this->client = new Client();
-        $this->apiHost = 'open-weather13.p.rapidapi.com';
-        $this->apiKey = '3722283417msh8ff7245707817a9p18a740jsn420588eb1f1a'; // Replace with your actual API key
+        $this->apiHost = 'YOUR_API_HOST';
+        $this->apiKey = 'YOUR_API_KEY'; // Replace with your actual API key
     }
 
     public function fetchWeather($city, $countryCode)

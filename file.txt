@@ -1,1 +1,1 @@
-"Change from branch A" 
+"Change from branch B" 
